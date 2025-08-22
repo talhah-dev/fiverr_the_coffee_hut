@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffee Hut</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/logo.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- seo -->
+    <meta name="description"
+        content="The Coffee Hut – your daily grind made comfortable. Freshly brewed coffee, delicious pastries, and cozy vibes. Visit us or shop our coffee beans and blends online.">
+    <meta name="keywords"
+        content="The Coffee Hut, coffee shop, fresh coffee, coffee beans, pastries, café, coffee blends, best coffee, cozy café, local coffee shop, buy coffee online">
+
+</head>
+
+<body class="overflow-x-hidden">
+    <div id="global-loader"
+        class="hi dden transition-opacity duration-300 opacity-0 fixed inset-0 bg-zinc-100 flex justify-center items-center z-50">
+        <div class="text-center">
+            <div class="w-16 h-16 border-4 border-dashed rounded-full animate-spin border-[#1e3b4b] mx-auto"></div>
+            <h2 class="text-zinc-900  mt-4">Loading...</h2>
+            <p class="text-zinc-600">
+                Please wait while we brew something special for you.
+            </p>
+        </div>
+    </div>
+
+    <div id="bottomToTopScroll"></div>
+    <section class="relative banner overflow-x-hidden">
+        <div id="navbar"></div>
+
+        <section class="relative overflow-hidden md:py-14 py-8 bg-center bg-cover py-10">
+            <!-- Content -->
+            <div
+                class="relative z-20 mx-auto max-w-7xl px-5 sm:px-6 lg:px-12 md:py-14 py-8 flex md:flex-row md:gap-20 gap-5 items-center justify-center flex-col text-center">
+                <div class="md:max-w-2xl w-full">
+                    <p data-aos="fade-up" data-aos-delay="100"
+                        class="flex items-center justify-center gap-3 text-lg font-medium text-sm md:text-base text-zinc-300 md:mb-5 mb-3">
+                        <i class="fa-solid fa-coffee text-white"></i>
+                        Find your nearest Coffee Hut
+                    </p>
+
+                    <h1 data-aos="fade-up" data-aos-delay="200"
+                        class="max-w-5xl textShadow mx-auto font-semibold text-3xl md:text-6xl tracking-wide text-zinc-100 leading-tight md:mb-6 capitalize mb-10">
+                        Visit Us
+                    </h1>
+
+                    <p data-aos="fade-up" data-aos-delay="400" class="text-zinc-300 md:mb-7 mb-10 text-lg space-y-3">
+                        Three cozy locations across the city—drop in for freshly brewed coffee, pastries, and warm
+                        hospitality.
+                    </p>
+                </div>
+            </div>
+
+
+        </section>
+    </section>
+
+    <section class="mx-auto w-full md:px-12 md:mt-16 mt-10 max-w-7xl p-5" id="locations">
+        <h2 data-aos="fade-up"
+            class="text-center md:text-5xl text-3xl max-w-3xl leading-tight mx-auto font-semibold text-zinc-700">
+            Our Locations
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:mt-12 mt-8">
+            <!-- Mindspace -->
+            <article data-aos="fade-up" class="border border-zinc-200 rounded-2xl overflow-hidden group">
+                <figure class="relative aspect-[4/3] overflow-hidden">
+                    <!-- Replace with your Mindspace photo -->
+                    <img src="/docs/assets/images/img1.jpg" alt="The Coffee Hut — Mindspace"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <span
+                        class="absolute top-3 left-3 bg-black/50 text-white text-xs px-2 py-1 rounded">Mindspace</span>
+                </figure>
+                <div class="p-5">
+                    <h3 class="text-xl font-semibold text-zinc-800">Mindspace</h3>
+                    <p class="text-zinc-600 mt-2">
+                        Your go-to spot for the morning rush and mid-day breaks—espresso classics, fresh bakes, and a
+                        calm corner to recharge.
+                    </p>
+                    <ul class="mt-4 space-y-1 text-zinc-700 text-sm">
+                        <li>⏰ Mon–Fri 7:30am–4:30pm • Sat 8am–5pm • Sun 9am–5pm</li>
+                    </ul>
+                    <div class="mt-5 flex gap-3">
+                        <a href="https://www.google.com/maps/search/Mindspace/@17.4409893,78.3598707,15z?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank"
+                            class="inline-flex items-center justify-center py-2 px-4 bg-[#1e3b4b] text-white rounded-sm hover:opacity-80 transition">
+                            Directions
+                        </a>
+                        <a href="/contact.html"
+                            class="inline-flex items-center justify-center py-2 px-4 border border-zinc-300 rounded-sm text-zinc-800 hover:bg-zinc-50 transition">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Haggerston -->
+            <article data-aos="fade-up" data-aos-delay="100"
+                class="border border-zinc-200 rounded-2xl overflow-hidden group">
+                <figure class="relative aspect-[4/3] overflow-hidden">
+                    <!-- Replace with your Haggerston photo -->
+                    <img src="/docs/assets/images/img2.jpg" alt="The Coffee Hut — Haggerston"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <span
+                        class="absolute top-3 left-3 bg-black/50 text-white text-xs px-2 py-1 rounded">Haggerston</span>
+                </figure>
+                <div class="p-5">
+                    <h3 class="text-xl font-semibold text-zinc-800">Haggerston</h3>
+                    <p class="text-zinc-600 mt-2">
+                        A neighborhood favorite with cozy seating and community vibes—perfect for catchups and laptop
+                        sessions.
+                    </p>
+                    <ul class="mt-4 space-y-1 text-zinc-700 text-sm">
+                        <li>⏰ Mon–Fri 7:30am–4:30pm • Sat 8am–5pm • Sun 9am–5pm</li>
+                    </ul>
+                    <div class="mt-5 flex gap-3">
+                        <a href="https://www.google.com/maps/place/Haggerston,+London,+UK/@51.5385458,-0.0799909,16z/data=!3m1!4b1!4m6!3m5!1s0x48761cbf7c2ec08b:0x7df896f43d498072!8m2!3d51.5373275!4d-0.0748971!16zL20vMG45cXk?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank"
+                            class="inline-flex items-center justify-center py-2 px-4 bg-[#1e3b4b] text-white rounded-sm hover:opacity-80 transition">
+                            Directions
+                        </a>
+                        <a href="/contact.html"
+                            class="inline-flex items-center justify-center py-2 px-4 border border-zinc-300 rounded-sm text-zinc-800 hover:bg-zinc-50 transition">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- The Huckletree -->
+            <article data-aos="fade-up" data-aos-delay="200"
+                class="border border-zinc-200 rounded-2xl overflow-hidden group">
+                <figure class="relative aspect-[4/3] overflow-hidden">
+                    <!-- Replace with your Huckletree photo -->
+                    <img src="/docs/assets/images/img4.jpg" alt="The Coffee Hut — The Huckletree"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <span class="absolute top-3 left-3 bg-black/50 text-white text-xs px-2 py-1 rounded">The
+                        Huckletree</span>
+                </figure>
+                <div class="p-5">
+                    <h3 class="text-xl font-semibold text-zinc-800">The Huckletree</h3>
+                    <p class="text-zinc-600 mt-2">
+                        Bright, modern, and buzzing—espresso bar vibes for creatives and teams on the move.
+                    </p>
+                    <ul class="mt-4 space-y-1 text-zinc-700 text-sm">
+                        <li>⏰ Mon–Fri 7:30am–4:30pm • Sat 8am–5pm • Sun 9am–5pm</li>
+                    </ul>
+                    <div class="mt-5 flex gap-3">
+                        <a href="https://www.google.com/maps/search/Huckletree/@52.466104,-5.8046289,7z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank"
+                            class="inline-flex items-center justify-center py-2 px-4 bg-[#1e3b4b] text-white rounded-sm hover:opacity-80 transition">
+                            Directions
+                        </a>
+                        <a href="/contact.html"
+                            class="inline-flex items-center justify-center py-2 px-4 border border-zinc-300 rounded-sm text-zinc-800 hover:bg-zinc-50 transition">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Map Switcher (optional—click a card to focus a map) -->
+    <section class="mx-auto w-full md:px-12 md:mt-16 mt-10 max-w-7xl p-5">
+        <div class="border border-zinc-200 rounded-2xl p-5">
+            <div class="flex flex-wrap gap-2" role="tablist">
+                <button class="tab-btn px-4 py-2 rounded border border-zinc-300 text-zinc-800"
+                    data-map="mindspace">Mindspace</button>
+                <button class="tab-btn px-4 py-2 rounded border border-zinc-300 text-zinc-800"
+                    data-map="haggerston">Haggerston</button>
+                <button class="tab-btn px-4 py-2 rounded border border-zinc-300 text-zinc-800" data-map="huckletree">The
+                    Huckletree</button>
+            </div>
+            <div class="mt-4">
+                <!-- Replace src with your Google Maps embed URLs -->
+                <iframe id="map-mindspace" title="Mindspace Map"
+                    class="map-frame w-full h-80 rounded-md border border-zinc-200" src="about:blank"
+                    loading="lazy"></iframe>
+                <iframe id="map-haggerston" title="Haggerston Map"
+                    class="map-frame w-full h-80 rounded-md border border-zinc-200 hidden" src="about:blank"
+                    loading="lazy"></iframe>
+                <iframe id="map-huckletree" title="The Huckletree Map"
+                    class="map-frame w-full h-80 rounded-md border border-zinc-200 hidden" src="about:blank"
+                    loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Callout / CTA -->
+    <section class="banner2 md:py-16 py-10 md:mt-16 mt-10">
+        <div class="max-w-6xl w-full mx-auto p-5 lg:px-12 text-center flex items-center justify-center flex-col">
+            <h2 data-aos="fade-up" class="md:text-4xl text-3xl text-zinc-100 md:mb-4 mb-4 font-semibold">
+                First time visiting?
+            </h2>
+            <p data-aos="fade-up" class="md:text-lg text-zinc-200 max-w-3xl mx-auto">
+                Try our house espresso and a fresh pastry—made with care, served with warmth.
+            </p>
+        </div>
+    </section>
+
+
+
+
+    <div class="bg-zinc-100 pt-5" id="footer"></div>
+    <script>
+        const btns = document.querySelectorAll('.tab-btn');
+        const maps = {
+            mindspace: document.getElementById('map-mindspace'),
+            haggerston: document.getElementById('map-haggerston'),
+            huckletree: document.getElementById('map-huckletree')
+        };
+
+        function setActive(targetKey, clickedBtn) {
+            // swap maps
+            Object.values(maps).forEach(frame => frame.classList.add('hidden'));
+            maps[targetKey]?.classList.remove('hidden');
+
+            // reset all buttons
+            btns.forEach(b => {
+                b.classList.remove('bg-[#1e3b4b]', 'text-white');
+                b.classList.add('bg-white', 'text-zinc-800', 'border-zinc-300');
+                b.setAttribute('aria-pressed', 'false');
+            });
+
+            // activate clicked button
+            clickedBtn.classList.remove('bg-white', 'text-zinc-800');
+            clickedBtn.classList.add('bg-[#1e3b4b]', 'text-white');
+            clickedBtn.setAttribute('aria-pressed', 'true');
+        }
+
+        btns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                // use currentTarget to avoid clicks on child elements
+                const targetBtn = e.currentTarget;
+                const key = targetBtn.dataset.map;
+                setActive(key, targetBtn);
+            });
+        });
+
+        // Set the first tab active on load (optional)
+        if (btns[0]) setActive(btns[0].dataset.map, btns[0]);
+
+
+        // OPTIONAL: Preload your Google Maps embed links here to avoid about:blank
+        maps.mindspace.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60902.042760298915!2d78.30581915817632!3d17.441628594093007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93e123819919%3A0xf3ebdeda5f6968e1!2sMindspace%2C%20HUDA%20Techno%20Enclave%2C%20HITEC%20City%2C%20Hyderabad%2C%20Telangana%20500081%2C%20India!5e0!3m2!1sen!2s!4v1755839333228!5m2!1sen!2s"; // Mindspace embed
+        maps.haggerston.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4963.238196120207!2d-0.07999090640463243!3d51.53854581050813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cbf7c2ec08b%3A0x7df896f43d498072!2sHaggerston%2C%20London%2C%20UK!5e0!3m2!1sen!2s!4v1755839361531!5m2!1sen!2s"; // Haggerston embed
+        maps.huckletree.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.958589810201!2d-0.0860694244308969!3d51.51397571022427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603757806fc65%3A0x1dbd7618e754d045!2sHuckletree%20Bishopsgate%20-%20London%20City%20Coworking%20%26%20Office%20Space!5e0!3m2!1sen!2s!4v1755839391249!5m2!1sen!2s"; // Huckletree embed
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+</body>
+
+</html>
