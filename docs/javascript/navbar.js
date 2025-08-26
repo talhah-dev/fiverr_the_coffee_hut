@@ -2,7 +2,7 @@ const dynamic_navbar = document.getElementById("navbar");
 
 dynamic_navbar.innerHTML = `
         <nav id="navbar" class="absolute bg-white transition-all duration-500  top-0 left-0 w-full z-40">
-            <div class="md:max-w-[85%] mx-auto flex justify-between items-center w-full xl:p-5 p-3 xl:h-[116px] h-24">
+            <div class="md:max-w-[95%] mx-auto flex justify-between items-center w-full xl:p-5 p-3 xl:h-[116px] h-24">
                 <div class="flex w-full items-center justify-between xl:gap-32 gap-20">
                     <a data-aos="fade-right" href="/index.html"
                         class="block text-white text-2xl font-semibold tracking-wide italic">
@@ -14,8 +14,8 @@ dynamic_navbar.innerHTML = `
                                 <li><a href="/index.html"
                                         class="hover:opacity-60 tracking-wide text-nowrap  transition-all duration-500">Home</a>
                                 </li>
-                                <li><a href="about.html"
-                                        class="hover:opacity-60 tracking-wide text-nowrap  transition-all duration-500">About Us</a>
+                                <li><a href="/about.html"
+                                        class="hover:opacity-60 tracking-wide text-nowrap  transition-all duration-500">Menu</a>
                                 </li>
                                 <li><a href="/visit.html"
                                         class="hover:opacity-60 tracking-wide text-nowrap transition-all duration-500">Visit Us</a>
@@ -51,7 +51,7 @@ dynamic_navbar.innerHTML = `
                             class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">Home</a>
                     </li>
                     <li><a href="/about.html"
-                    class="hover:opacity-60 mobileMenuCloseBtn tracking-wide text-nowrap transition-all duration-500 text-nowrap">About Us</a>
+                    class="hover:opacity-60 mobileMenuCloseBtn tracking-wide text-nowrap transition-all duration-500 text-nowrap">Menu</a>
                     </li>
                     <li><a href="/visit.html"
                     class="hover:opacity-60 mobileMenuCloseBtn tracking-wide transition-all duration-500 text-nowrap">Visit Us</a>

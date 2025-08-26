@@ -16,6 +16,7 @@ footer.innerHTML = `
             </div>
         </div>
 
+        <div class="md:block hidden"></div>
         <div data-aos="fade-up" data-aos-delay="100" class="second">
             <h2 class="text-2xl text-zinc-800 font-semibold">Quick Link</h2>
             <ul class="mt-5 space-y-3 text-zinc-600 font-medium">
@@ -28,19 +29,9 @@ footer.innerHTML = `
             </ul>
         </div>
         <div data-aos="fade-up" data-aos-delay="200" class="second">
-            <h2 class="text-2xl text-zinc-800 font-semibold">Hours</h2>
+            <h2 class="text-2xl text-zinc-800 font-semibold">Opening Hours</h2>
             <ul class="mt-5 space-y-2 text-zinc-600 font-medium">
-                <li>Monday — Friday <br> 7:30am – 4:30pm</li>
-                <li>Saturday <br> 8:00am – 5:00pm</li>
-                <li>Sunday <br> 9:00am – 5:00pm</li>
-            </ul>
-        </div>
-        <div data-aos="fade-up" data-aos-delay="300" class="second">
-            <h2 class="text-2xl text-zinc-800 font-semibold">Social Media</h2>
-            <ul class="mt-5 space-y-3 text-zinc-600 font-medium">
-                <li class="flex items-center gap-3"><i class="fa-brands fa-instagram text-xl"></i><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-                <li class="flex items-center gap-3"><i class="fa-brands fa-tiktok text-xl"></i><a href="https://www.tiktok.com">Tiktok</a></li>
-                <li class="flex items-center gap-3"><i class="fa-brands fa-facebook text-xl"></i><a href="https://www.facebook.com">Facebook</a></li>
+                <li>Monday — Friday <br> 8:00am – 4:30pm</li>
             </ul>
         </div>
     </footer>
