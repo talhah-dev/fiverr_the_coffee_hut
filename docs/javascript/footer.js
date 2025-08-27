@@ -24,7 +24,6 @@ footer.innerHTML = `
                 <li><a href="/about.html">About</a></li>
                 <li><a href="/visit.html">Visit us</a></li>
                 <li><a href="/catering.html">Catering</a></li>
-                <li><a href="/gallery.html">Gallery</a></li>
                 <li><a href="/contact.html">Contact Us</a></li>
             </ul>
         </div>

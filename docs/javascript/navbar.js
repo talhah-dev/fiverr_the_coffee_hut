@@ -20,9 +20,6 @@ dynamic_navbar.innerHTML = `
                                 <li><a href="/visit.html"
                                         class="hover:opacity-60 tracking-wide text-nowrap transition-all duration-500">Visit Us</a>
                                 </li>
-                                <li><a href="/gallery.html"
-                                        class="hover:opacity-60 tracking-wide text-nowrap transition-all duration-500">Gallery</a>
-                                </li>
                                 <li><a href="/catering.html"
                                         class="hover:opacity-60 tracking-wide text-nowrap  transition-all duration-500">Catering</a>
                                 </li>
@@ -55,9 +52,6 @@ dynamic_navbar.innerHTML = `
                     </li>
                     <li><a href="/visit.html"
                     class="hover:opacity-60 mobileMenuCloseBtn tracking-wide transition-all duration-500 text-nowrap">Visit Us</a>
-                    </li>
-                    <li><a href="/gallery.html"
-                    class="hover:opacity-60 mobileMenuCloseBtn tracking-wide transition-all duration-500 text-nowrap">Gallery</a>
                     </li>
                     <li><a href="/catering.html"
                             class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">Catering</a>
