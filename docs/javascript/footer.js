@@ -16,7 +16,18 @@ footer.innerHTML = `
             </div>
         </div>
 
-        <div class="md:block hidden"></div>
+        <div data-aos="fade-up" data-aos-delay="200" class=" md:col-span-2 second">
+            <h2 class="text-2xl text-zinc-800 font-semibold">Opening Hours</h2>
+            <ul class="mt-5 space-y-2 text-zinc-600 font-medium">
+                <li>Monday — 8:00am – 4:30pm</li>
+                <li>Tuesday — 8:00am – 4:30pm</li>
+                <li>Wednesday — 8:00am – 4:30pm</li>
+                <li>Thursday — 8:00am – 4:30pm</li>
+                <li>Friday — 8:00am – 4:30pm</li>
+                <li>Saturday — Closed</li>
+                <li>Sunday — Closed</li>
+            </ul>
+        </div>        
         <div data-aos="fade-up" data-aos-delay="100" class="second">
             <h2 class="text-2xl text-zinc-800 font-semibold">Quick Link</h2>
             <ul class="mt-5 space-y-3 text-zinc-600 font-medium">
@@ -25,12 +36,6 @@ footer.innerHTML = `
                 <li><a href="/visit.html">Visit us</a></li>
                 <li><a href="/catering.html">Catering</a></li>
                 <li><a href="/contact.html">Contact Us</a></li>
-            </ul>
-        </div>
-        <div data-aos="fade-up" data-aos-delay="200" class="second">
-            <h2 class="text-2xl text-zinc-800 font-semibold">Opening Hours</h2>
-            <ul class="mt-5 space-y-2 text-zinc-600 font-medium">
-                <li>Monday — Friday <br> 8:00am – 4:30pm</li>
             </ul>
         </div>
     </footer>
