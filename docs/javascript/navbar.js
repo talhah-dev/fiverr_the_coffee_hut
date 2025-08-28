@@ -14,8 +14,19 @@ dynamic_navbar.innerHTML = `
                                 <li><a href="/index.html"
                                         class="hover:opacity-60 tracking-wide text-nowrap  transition-all duration-500">Home</a>
                                 </li>
-                                <li><a href="/about.html"
-                                        class="hover:opacity-60 tracking-wide text-nowrap  transition-all duration-500">Menu</a>
+                                <li class="relative group">
+                                    <a href="/food.html"
+                                        class="hover:text-[#1e3b4b] cursor-pointer flex items-center gap-2 tracking-wide transition-all duration-500">
+                                        Menu
+                                        <i class="fa-solid fa-angle-down dropdownIcon transition-transform duration-500"></i>
+                                    </a>
+                                    <div
+                                        class=" absolute fadeIn group-hover:flex rounded-lg overflow-hidden hidden w-48 top-6 left-0 bg-[#fff] z-30 flex-col">
+                                        <a href="/food.html"
+                                        class="p-5 hover:bg-[#1e3b4b] hover:text-white text-nowrap transition-all duration-500 block"> Food Menu</a>
+                                        <a href="/drink.html"
+                                        class="p-5 hover:bg-[#1e3b4b] hover:text-white text-nowrap transition-all duration-500 block">Drink Menu</a>
+                                    </div>
                                 </li>
                                 <li><a href="/visit.html"
                                         class="hover:opacity-60 tracking-wide text-nowrap transition-all duration-500">Visit Us</a>

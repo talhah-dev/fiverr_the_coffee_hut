@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffee Hut</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/logo.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- seo -->
+    <meta name="description"
+        content="The Coffee Hut – your daily grind made comfortable. Freshly brewed coffee, delicious pastries, and cozy vibes. Visit us or shop our coffee beans and blends online.">
+    <meta name="keywords"
+        content="The Coffee Hut, coffee shop, fresh coffee, coffee beans, pastries, café, coffee blends, best coffee, cozy café, local coffee shop, buy coffee online">
+
+</head>
+
+<body class="overflow-x-hidden">
+    <div id="global-loader"
+        class="hi dden transition-opacity duration-300 opacity-0 fixed inset-0 bg-zinc-100 flex justify-center items-center z-50">
+        <div class="text-center">
+            <div class="w-16 h-16 border-4 border-dashed rounded-full animate-spin border-[#1e3b4b] mx-auto"></div>
+            <h2 class="text-zinc-900  mt-4">Loading...</h2>
+            <p class="text-zinc-600">
+                Please wait while we brew something special for you.
+            </p>
+        </div>
+    </div>
+
+    <div id="bottomToTopScroll"></div>
+    <section class="relative banner overflow-x-hidden">
+        <div id="navbar"></div>
+
+        <section class="relative overflow-hidden md:py-14 py-8 bg-center bg-cover py-10">
+            <!-- Content -->
+            <div
+                class="relative z-20 mx-auto max-w-7xl px-5 sm:px-6 lg:px-12 md:py-14 py-8 flex md:flex-row md:gap-20 gap-5 items-center justify-center flex-col text-center">
+                <div class="md:max-w-2xl w-full">
+                    <h1 data-aos="fade-up" data-aos-delay="200"
+                        class="max-w-5xl textShadow mx-auto font-semibold text-3xl md:text-6xl tracking-wide text-zinc-100 leading-tight md:mb-6 capitalize mb-5">
+                        Food Menu
+                    </h1>
+
+                    <p data-aos="fade-up" data-aos-delay="400" class="text-zinc-300 text-lg space-y-3">
+                        Fresh, layered flavours on artisan breads, baked daily. Customise with extras and ask about
+                        weekly bowls & soups.
+
+
+                    </p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Food Menu Section — Tailwind CSS -->
+    <section id="food-menu"
+        class="relative overflow-hidden bg-gradient-to-b from-zinc-950 via-zinc-900 to-zinc-950 text-zinc-100 py-16">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <!-- Grid -->
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                <!-- ON TOAST -->
+                <article data-aos="fade-up" class="rounded-2xl border border-zinc-800/60 bg-zinc-900/40 backdrop-blur shadow-lg">
+                    <header class="p-5 border-b border-zinc-800/60">
+                        <h3 class="text-xl font-semibold tracking-wide">On Toast</h3>
+                    </header>
+                    <ul role="list" class="divide-y divide-zinc-800/60">
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Avocado, feta, pesto oil,
+                                chilli flakes</span><span class="tabular-nums">£ 7.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Avocado, feta, tomato,
+                                balsamic glaze</span><span class="tabular-nums">£ 7.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Avocado, feta, smoked salmon,
+                                honey, chives <em class="text-zinc-400">(+ Salmon +£3)</em></span><span
+                                class="tabular-nums">£ 8.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Jam or peanut
+                                butter</span><span class="tabular-nums">£ 2.50</span></li>
+                    </ul>
+                </article>
+
+                <!-- ALL DAY BREAKFAST -->
+                <article data-aos="fade-up" class="rounded-2xl border border-zinc-800/60 bg-zinc-900/40 backdrop-blur shadow-lg">
+                    <header class="p-5 border-b border-zinc-800/60">
+                        <h3 class="text-xl font-semibold tracking-wide">All Day Breakfast</h3>
+                    </header>
+                    <ul role="list" class="divide-y divide-zinc-800/60">
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>3 Scrambled eggs on toast <em
+                                    class="text-zinc-400">(+ Salmon +£3)</em></span><span class="tabular-nums">£
+                                8.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Eggs &amp; bacon
+                                toastie</span><span class="tabular-nums">£ 5.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Bacon toastie</span><span
+                                class="tabular-nums">£ 4.50</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Yoghurt &amp;
+                                Granola</span><span class="tabular-nums">£ 2.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Cheese toastie</span><span
+                                class="tabular-nums">£ 3.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Tomato &amp; cheese
+                                toastie</span><span class="tabular-nums">£ 4.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Ham &amp; cheese
+                                toastie</span><span class="tabular-nums">£ 5.50</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Eggs, avocado,
+                                salmon</span><span class="tabular-nums">£ 5.50</span></li>
+                    </ul>
+                </article>
+
+                <!-- BAGELS -->
+                <article data-aos="fade-up" class="rounded-2xl border border-zinc-800/60 bg-zinc-900/40 backdrop-blur shadow-lg">
+                    <header class="p-5 border-b border-zinc-800/60">
+                        <h3 class="text-xl font-semibold tracking-wide">Bagels</h3>
+                    </header>
+                    <ul role="list" class="divide-y divide-zinc-800/60">
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Avocado &amp; bacon <em
+                                    class="text-zinc-400">(+ Egg +£1)</em></span><span class="tabular-nums">£
+                                5.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Avocado, halloumi, chives,
+                                sweet chilli <em class="text-zinc-400">(+ Bacon +£1)</em></span><span
+                                class="tabular-nums">£ 5.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Tuna mayo, sweetcorn, capers,
+                                spring onions</span><span class="tabular-nums">£ 5.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Smoked salmon, cream cheese,
+                                chives, lemon juice</span><span class="tabular-nums">£ 6.50</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Egg &amp; mayo</span><span
+                                class="tabular-nums">£ 4.50</span></li>
+                    </ul>
+                    <footer class="px-5 py-4 text-sm text-zinc-400">
+                        Add‑ons: + Salmon £2.5, + Bacon £1.5, + Avocado £1
+                    </footer>
+                </article>
+
+                <!-- FOCACCIA -->
+                <article data-aos="fade-up" class="rounded-2xl border border-zinc-800/60 bg-zinc-900/40 backdrop-blur shadow-lg">
+                    <header class="p-5 border-b border-zinc-800/60">
+                        <h3 class="text-xl font-semibold tracking-wide">Focaccia <span
+                                class="text-sm font-normal text-zinc-400">(baked fresh daily)</span></h3>
+                    </header>
+                    <ul role="list" class="divide-y divide-zinc-800/60">
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Tomato, mozzarella, handmade
+                                pesto <em class="text-zinc-400">(+ Prosciutto +£2)</em></span><span
+                                class="tabular-nums">£ 6.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Avocado, bacon, tomato,
+                                lettuce, sriracha mayo</span><span class="tabular-nums">£ 7.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Prosciutto, courgettes,
+                                rocket, mozzarella, truffle mayo</span><span class="tabular-nums">£ 7.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Fresh ricotta, mortadella,
+                                pistachio, pesto</span><span class="tabular-nums">£ 7.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Burrata, courgettes, rocket,
+                                sundried tomatoes, truffle oil or pesto</span><span class="tabular-nums">£ 7.99</span>
+                        </li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Gorgonzola, spicy salami,
+                                sundried tomatoes, rocket, EVO</span><span class="tabular-nums">£ 8.50</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Red pesto, aubergine, rocket,
+                                smoked mozzarella, chilli oil</span><span class="tabular-nums">£ 8.50</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Avocado, roasted peppers,
+                                feta, rocket, olive tapenade</span><span class="tabular-nums">£ 7.99</span></li>
+                        <li class="flex items-start justify-between gap-4 px-5 py-3"><span>Mushrooms, whipped feta,
+                                truffle oil, chives</span><span class="tabular-nums">£ 7.99</span></li>
+                    </ul>
+                </article>
+
+                <!-- SANDWICHES (Sourdough) -->
+                <article data-aos="fade-up" class="rounded-2xl border border-zinc-800/60 bg-zinc-900/40 backdrop-blur shadow-lg">
+                    <header class="p-5 border-b border-zinc-800/60">
+                        <h3 class="text-xl font-semibold tracking-wide">Sandwiches <span
+                                class="text-sm font-normal text-zinc-400">(sourdough)</span></h3>
+                    </header>
+                    <ul role="list" class="divide-y divide-zinc-800/60">
+                        <li class="px-5 py-3">
+                            <div class="flex items-baseline justify-between gap-4"><span class="font-medium">Tuna
+                                    Melt</span><span class="tabular-nums">£ 6.99</span></div>
+                            <p class="text-sm text-zinc-400 mt-1">Tuna mayo, Red Leicester, tomato</p>
+                        </li>
+                        <li class="px-5 py-3">
+                            <div class="flex items-baseline justify-between gap-4"><span>Chicken, lettuce, tomato,
+                                    bacon, chipotle sauce</span><span class="tabular-nums">—</span></div>
+                        </li>
+                        <li class="px-5 py-3">
+                            <div class="flex items-baseline justify-between gap-4"><span>Avocado, harissa chicken,
+                                    rocket</span><span class="tabular-nums">—</span></div>
+                        </li>
+                        <li class="px-5 py-3">
+                            <div class="flex items-baseline justify-between gap-4"><span>Chicken pesto, mozzarella,
+                                    sundried tomatoes, rocket</span><span class="tabular-nums">—</span></div>
+                        </li>
+                        <li class="px-5 py-3">
+                            <div class="flex items-baseline justify-between gap-4"><span>Pastrami, mature cheddar,
+                                    gherkins, mustard mayo</span><span class="tabular-nums">—</span></div>
+                        </li>
+                        <li class="px-5 py-3">
+                            <div class="flex items-baseline justify-between gap-4"><span>Avocado, Asian slaw, smoked
+                                    tofu, spicy mayo</span><span class="tabular-nums">—</span></div>
+                        </li>
+                    </ul>
+                </article>
+
+                <!-- SALADS -->
+                <article data-aos="fade-up"
+                    class="rounded-2xl border border-zinc-800/60 bg-zinc-900/40 backdrop-blur shadow-lg md:col-span-2 xl:col-span-1">
+                    <header class="p-5 border-b border-zinc-800/60">
+                        <h3 class="text-xl font-semibold tracking-wide">Salads</h3>
+                    </header>
+                    <ul role="list" class="divide-y divide-zinc-800/60">
+                        <li class="px-5 py-3">
+                            <div class="flex items-baseline justify-between gap-4"><span class="font-medium">Greek
+                                    Salad</span><span class="tabular-nums">£ 7.50</span></div>
+                            <p class="text-sm text-zinc-400 mt-1">Feta, olives, cucumber, tomato, oregano, EVO</p>
+                        </li>
+                        <li class="px-5 py-3">
+                            <div class="flex items-baseline justify-between gap-4"><span class="font-medium">Chicken
+                                    Salad</span><span class="tabular-nums">£ 7.50</span></div>
+                            <p class="text-sm text-zinc-400 mt-1">Chicken, parmesan, egg, tomato, pesto oil dressing</p>
+                        </li>
+                        <li class="px-5 py-3">
+                            <div class="flex items-baseline justify-between gap-4"><span class="font-medium">Tuna
+                                    Salad</span><span class="tabular-nums">£ 7.50</span></div>
+                            <p class="text-sm text-zinc-400 mt-1">Tuna, mozzarella, sweetcorn, olives, vinaigrette</p>
+                        </li>
+                        <li class="px-5 py-3">
+                            <div class="flex items-baseline justify-between gap-4"><span class="font-medium">Salmon
+                                    Salad</span><span class="tabular-nums">£ 7.50</span></div>
+                            <p class="text-sm text-zinc-400 mt-1">Smoked salmon, avocado, egg, mixed seeds, pesto
+                                dressing</p>
+                        </li>
+                    </ul>
+                    <footer class="px-5 py-4 text-sm text-zinc-400">
+                        Check our board for this week’s Buddha bowls, poke bowls & seasonal soups.
+                    </footer>
+                </article>
+            </div>
+        </div>
+
+        <!-- subtle gradient accent -->
+        <div class="pointer-events-none absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white/5 to-transparent">
+        </div>
+    </section>
+
+
+
+    <div class="bg-zinc-100 pt-5" id="footer"></div>
+
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+
+</body>
+
+</html>
