@@ -19,13 +19,12 @@ footer.innerHTML = `
         <div data-aos="fade-up" data-aos-delay="200" class=" md:col-span-2 second">
             <h2 class="text-2xl text-zinc-800 font-semibold">Opening Hours</h2>
             <ul class="mt-5 space-y-2 text-zinc-600 font-medium">
-                <li>Monday — 8:00am – 4:30pm</li>
-                <li>Tuesday — 8:00am – 4:30pm</li>
-                <li>Wednesday — 8:00am – 4:30pm</li>
-                <li>Thursday — 8:00am – 4:30pm</li>
-                <li>Friday — 8:00am – 4:30pm</li>
-                <li>Saturday — Closed</li>
-                <li>Sunday — Closed</li>
+                <li>Monday 8:00-16:30</li>
+                <li>Tuesday 8:00-16:30</li>
+                <li>Wednesday 8:00-16:30</li>
+                <li>Thursday 8:00-16:30</li>
+                <li>Friday 8:00-16:00</li>
+                <li>Weekend : Closed</li>
             </ul>
         </div>        
         <div data-aos="fade-up" data-aos-delay="100" class="second">
