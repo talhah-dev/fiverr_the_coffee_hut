@@ -58,7 +58,7 @@ dynamic_navbar.innerHTML = `
                     <li><a href="/index.html"
                             class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">Home</a>
                     </li>
-                    <li><a href="/food.html"
+                    <li><a href="/drink.html"
                     class="hover:opacity-60 mobileMenuCloseBtn tracking-wide text-nowrap transition-all duration-500 text-nowrap">Menu</a>
                     </li>
                     <li><a href="/visit.html"
